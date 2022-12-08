@@ -1,0 +1,22 @@
+{
+    "short_name": "Nizwar ID",
+    "name": "Nizwar ID",
+    "description": "Blog gue, suka-suka gue!",
+    "icons": [
+        {
+            "src": "https://3.bp.blogspot.com/-j0jz0-8N01w/W3svL4_oIiI/AAAAAAAAAE4/bUVznUCxtNIzYSRfs9pEXpJ1NQVFpL1XwCEwYBhgL/s192/nizwar_id.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/https://3.bp.blogspot.com/-j0jz0-8N01w/W3svL4_oIiI/AAAAAAAAAE4/bUVznUCxtNIzYSRfs9pEXpJ1NQVFpL1XwCEwYBhgL/s512/nizwar_id.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "https://www.nizwar.id/?m=1",
+    "background_color": "#d64136",
+    "display": "standalone",
+    "scope": "https://www.nizwar.id/",
+    "theme_color": "#d64136"
+}
