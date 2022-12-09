@@ -125,19 +125,3 @@ function a(t, e) {
 }
 
 a(window, document);
-
-var infinite_scroll = new InfiniteScroll({
-    type: 0,
-    target: {
-        posts: '.blog-posts',
-        post: '.post-outer',
-        anchors: '.blog-pager',
-        anchor: '.blog-pager-older-link'
-    },
-    text: {
-        load: '<a class="js-load" href="javascript:;">Load More</a>',
-        loading: '<a class="js-load">Loading.....</a>',
-        loaded: '<span class="js-load">Habis</span>',
-        error: '<a class="js-load">Error!</a>'
-    }
-});
