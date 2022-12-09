@@ -2903,7 +2903,7 @@ a.tombol:hover {
     letter-spacing: 2px
 }
 
-.search-icon a {
+.search-icon div {
     position: absolute;
     right: 0;
     top: 6px;
