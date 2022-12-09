@@ -155,7 +155,7 @@ function showrecentpostsae(e) {
             if ("alternate" == t.link[i].rel) {
                 r = t.link[i].href;
                 break
-            } a = "content" in t ? t.content.$t : "summary" in t ? t.summary.$t : "", s += "<div class='recentpostel'>", s += "<a href='" + r + "' target='_blank'><img class='lazy' data-src='" + ("media$thumbnail" in t ? t.media$thumbnail.url : "https://3.bp.blogspot.com/-BHuXHny1kOk/VXrkSyxKCjI/AAAAAAAACas/pZLJAEUDtds/s1600/no-image.png") + "' /></a>", s += "<h6><a href='" + r + "'>" + n + "</a></h6>", s += "<p>" + nizwarFeed(a, charac) + "...</p>", s += "</div>"
+            } a = "content" in t ? t.content.$t : "summary" in t ? t.summary.$t : "", s += "<div class='recentpostel'>", s += "<a href='" + r + "' target='_blank'><img alt='" + r + "' class='lazy' data-src='" + ("media$thumbnail" in t ? t.media$thumbnail.url : "https://3.bp.blogspot.com/-BHuXHny1kOk/VXrkSyxKCjI/AAAAAAAACas/pZLJAEUDtds/s1600/no-image.png") + "' /></a>", s += "<h6><a href='" + r + "'>" + n + "</a></h6>", s += "<p>" + nizwarFeed(a, charac) + "...</p>", s += "</div>"
     }
     document.getElementById("recentpostsae").innerHTML = s, s = "", s += urlprevious ? "<a href='javascript:navigasifeed(-1);' class='previousA'>Previous</a>" : "<span class='noactived previousA'>Previous</span>", s += urlnext ? "<a href='javascript:navigasifeed(1);' class='nextA'>Next</a>" : "<span class='noactived nextA'>Next</span>", s += "<a href='javascript:navigasifeed(0);' class='home'>Home</a>", document.getElementById("recentpostnavfeed").innerHTML = s
 }
