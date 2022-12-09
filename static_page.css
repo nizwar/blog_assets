@@ -7,7 +7,7 @@
     border-top: 5px solid #d64136
 }
 
-.search-icon div {
+.search-icon span {
     color: #fff;
     padding: 10px 13px;
     background: #d64136;
@@ -121,7 +121,7 @@ h2.post-title.entry-title a {
 }
 
 @media screen and (max-width:768px) {
-    .search-icon div {
+    .search-icon span {
         color: #2a2a2a;
         background: none;
         padding: 6.5px 15px;
