@@ -100,7 +100,7 @@ function artikelterkait() {
     while (r < relmaxtampil) {
         if (relurls[D] != t) {
             q = "<li class='news-title clearfix'>";
-            q += "<a href='" + relurls[D] + "' rel='nofollow' target='_top' title='" + reljudul[D] + "'><img alt='" + reljudul[D] + "' data-src='" + relgambar[D] + "' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /></a>";
+            q += "<a href='" + relurls[D] + "' rel='nofollow' target='_top' title='" + reljudul[D] + "'><img alt='" + reljudul[D] + "' class='lazy' data-src='" + relgambar[D] + "' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /></a>";
             q += "<a class='relinkjdulx' href='" + relurls[D] + "' target='_top'>" + reljudul[D] + "</a>";
             q += "<span class='news-text'>" + relcuplikan[D] + "</span>";
             q += "</li>";
