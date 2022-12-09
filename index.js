@@ -1,4 +1,4 @@
-function a(t, e) {
+function InfiniteScroll(t, e) {
     t.InfiniteScroll = function(n) {
         function r(t, n) {
             return n = n || e, n.querySelectorAll(t)
