@@ -1,4 +1,4 @@
-function InfiniteScroll(t, e) {
+function a(t, e) {
     t.InfiniteScroll = function(n) {
         function r(t, n) {
             return n = n || e, n.querySelectorAll(t)
@@ -122,7 +122,10 @@ function InfiniteScroll(t, e) {
         }
         return p
     }
-}(window, document);
+}
+
+a(window, document);
+
 var infinite_scroll = new InfiniteScroll({
     type: 0,
     target: {
