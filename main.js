@@ -137,7 +137,7 @@ $menulink.click(function(e) {
 });
 var numfeed = 4,
     startfeed = 0,
-    urlblog = "https://nizwar-id.blogspot.com",
+    urlblog = "https://nizwar-blog.blogspot.com",
     charac = 45,
     urlprevious, urlnext;
 
